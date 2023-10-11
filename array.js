@@ -28,13 +28,10 @@ const colors = [
     numbers: [17, 18, 19, 20],
     year: 2019, 
     shade: "dark",
-  }
+  },
 ];
 
 colors.forEach((colors)=> console.log(colors.name))
 colors.forEach((colors)=> console.log(colors.numbers));
-function filterItems(arr, query) {
-  return arr.filter((el) => el.toLowerCase().includes(query.toLowerCase()));
-}
-console.log(filterItems(colors, "dark")); // ['apple', 'grapes']
-
+const arrbyshade = colors.filter(Filterbyshade[dark]);
+console.log(arrbyshade)
