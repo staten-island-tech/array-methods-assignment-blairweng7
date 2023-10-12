@@ -32,6 +32,8 @@ const colors = [
 ];
 
 colors.forEach((colors)=> console.log(colors.name))
-colors.forEach((colors)=> console.log(colors.numbers));
-const arrbyshade = colors.filter(Filterbyshade[dark]);
-console.log(arrbyshade)
+colors.forEach((flag)=> {
+  flag.numbers.forEach((Fk)=> console.log(Fk))
+})
+colors.forEach()
+
