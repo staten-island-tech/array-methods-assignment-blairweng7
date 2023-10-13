@@ -3,31 +3,31 @@ const colors = [
     name: "Pink",
     numbers: [1, 2, 3, 4],
     year: 2023,
-    shade: "dark",
+    popular: true,
   },
   {
     name: "Purple",
     numbers: [5, 6, 7, 8],
     year: 2022,
-    shade: "light",
+    popular: true,
   },
   {
     name: "Blue",
     numbers: [9, 10, 11, 12],
     year: 2021,
-    shade: "dark",
+    popular: true,
   },
   {
     name: "Orange",
     numbers: [13, 14, 15, 16],
     year: 2020,
-    shade: "light",
+    popular: false,
   },
   {
     name: "Green",
     numbers: [17, 18, 19, 20],
     year: 2019, 
-    shade: "dark",
+    popular: false,
   },
 ];
 
@@ -35,5 +35,7 @@ colors.forEach((colors)=> console.log(colors.name))
 colors.forEach((flag)=> {
   flag.numbers.forEach((Fk)=> console.log(Fk))
 })
-colors.forEach()
-
+const popular = colors.filter((hill)=> {
+  return hill.popular === true
+})
+console.log(popular)
