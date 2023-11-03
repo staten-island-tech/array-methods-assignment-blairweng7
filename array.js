@@ -33,7 +33,8 @@ const colors = [
 
 colors.forEach((colors)=> console.log(colors.name))
 colors.forEach((flag)=> {
-  flag.numbers.forEach((Fk)=> console.log(Fk))
+  flag
+  .numbers.forEach((Fk)=> console.log(Fk))
 })
 const popular = colors.filter((hill)=> {
   return hill.popular === true
